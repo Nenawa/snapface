@@ -1,7 +1,8 @@
-<h2>{{ title }}</h2>
-
-<p>{{description}}</p>
-<p>Facesnap crée le{{creadetAt}}</p>
-<p>😶‍🌫️ {{snaps}} </p>
-<img src="{{imageUrl}}" width=120rem alt="svfrthrt">    <!-- liaison par string interpolation = avec les accolades-->
-<img [src]="imageUrl" width=120rem [alt]="title">   <!-- liaison par attribut binding = avec les crochets-->
+<div class="face-snap-card">
+    <h2>{{ title }}</h2>
+    <p>{{description}}</p>
+    <p>Facesnap crée le{{creadetAt}}</p>
+    <p>😶‍🌫️ {{snaps}} </p>
+    <img src="{{imageUrl}}" width=120rem alt="svfrthrt"> <!-- liaison par string interpolation = avec les accolades-->
+    <!--<img [src]="imageUrl" width=120rem [alt]="title">  liaison par attribut binding = avec les crochets-->
+</div>
